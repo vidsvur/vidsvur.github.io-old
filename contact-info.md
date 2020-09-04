@@ -13,4 +13,4 @@ Postal address:
     Storrs, CT 06269-3043
     U.S.A
   
-[Back to Home](vidsvur.githib.io)
+[Back to Home](https://vidsvur.github.io/)
