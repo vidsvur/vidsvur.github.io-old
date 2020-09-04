@@ -1,8 +1,7 @@
-![Image of Vidya](images/headshot.jpg
-"Vidya")
+![Image of Vidya](<img align="left" width="100" height="100" src=images/headshot.jpg
+"Vidya">)
 
-<img align="left" width="100" height="100" src=images/headshot.jpg
-"Vidya">
+
 
 ## About Me
 I am a PhD student in the UConn EEB department
