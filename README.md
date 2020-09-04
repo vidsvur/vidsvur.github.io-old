@@ -5,14 +5,13 @@ interested in plant parasite interactions, genomics and bioinformatics.
 
 [My CV](PDFs/cv.pdf)
 
-[Contact Info](contact-info.html)
-
 ### <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 
 ###  <!-- display the social media buttons in your README -->
-
-   [![alt text][1.2]][1]
-   [![alt text][6.2]][6]
+ [Contact Info](contact-info.html)
+ 
+ [![alt text][1.2]][1]
+ [![alt text][6.2]][6]
 
 
 ###  <!-- links to social media icons -->
