@@ -1,5 +1,4 @@
-![Image of Vidya](<img align="left" width="100" height="100" src=images/headshot.jpg
-"Vidya">)
+![Image of Vidya](images/headshot.png "Vidya")
 
 
 
