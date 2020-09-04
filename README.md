@@ -1,4 +1,4 @@
-![Image of Vidya](images/headshot.png "Vidya")
+![Image of Vidya](images/headshot.jpg "Vidya")
 
 
 
