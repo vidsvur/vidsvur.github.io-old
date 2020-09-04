@@ -1,6 +1,3 @@
-![Image of Vidya](images/headshot.jpg "Vidya")
-
-
 ## About Me
 <img align="left" src="images/headshot.jpg"> 
 I am a PhD student in the UConn EEB department
