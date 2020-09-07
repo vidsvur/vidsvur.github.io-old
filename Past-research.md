@@ -35,17 +35,11 @@ I was supervised by [Twan Kranenburg](https://nl.linkedin.com/in/twan-kranenburg
 ### Project: Analysis of the effect of MiVAP-1 Mutants on A. thaliana
 Dec 2017
 
-<p> 
-  <img align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/A_juvenile_root-knot_nematode_%28Meloidogyne_incognita%29_penetrates_a_tomato_root_-_USDA-ARS.jpg/220px-A_juvenile_root-knot_nematode_%28Meloidogyne_incognita%29_penetrates_a_tomato_root_-_USDA-ARS.jpg">
-  Understanding the role of Meloidogyne incognita venom like allergen protein,
-  also known as MiVAP-1.
-  Key learning aspects: Preparation of tissue culture plates, SDS-PAGE gels, root
-  length analyses and ROS assays
-  
-  Also performed in the [Lab of Nematology](https://www.wur.nl/en/Research-Results/Chair-groups/Plant-Sciences/Laboratory-of-Nematology.htm), under [Koen Varossieau](https://www.wur.nl/en/Persons/Koen-K-Koen-Varossieau-MSc.htm)'s supervision. 
-  
-  </p>
+<img align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/A_juvenile_root-knot_nematode_%28Meloidogyne_incognita%29_penetrates_a_tomato_root_-_USDA-ARS.jpg/220px-A_juvenile_root-knot_nematode_%28Meloidogyne_incognita%29_penetrates_a_tomato_root_-_USDA-ARS.jpg">
+Understanding the role of Meloidogyne incognita venom like allergen protein, also known as MiVAP-1. Key learning aspects: Preparation of tissue culture plates, SDS-PAGE gels, root length analyses and ROS assays
 
+This was also done in the [Lab of Nematology](https://www.wur.nl/en/Research-Results/Chair-groups/Plant-Sciences/Laboratory-of-Nematology.htm), under [Koen Varossieau](https://www.wur.nl/en/Persons/Koen-K-Koen-Varossieau-MSc.htm)'s supervision. 
+  
 # Bachelor's Research
 
 ### Bachelor's Thesis: Bioconversion of Leather Waste to Bio-fertiliser
