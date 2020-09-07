@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Past research"
+title: "Past Research"
 permalink: /past-research/
 ---
 
