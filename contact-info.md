@@ -14,8 +14,8 @@ Postal address:
     U.S.A
     
 
- [![alt text][1.2]][1]
- [![alt text][6.2]][6]
+ ![alt text][1.2]
+ ![alt text][6.2]
 
    [1.2]: https://i.imgur.com/tXSoThF.png (twitter icon with padding)
    [6.2]: https://i.imgur.com/0o48UoR.png (github icon with padding)
