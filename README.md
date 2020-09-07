@@ -34,6 +34,6 @@ interested in plant parasite interactions, genomics and bioinformatics.
 
 
 ### Credit
-Special thanks to [Entypo](http://www.entypo.com/) for the icons and to [Imgur](https://imgur.com/tXSoThF,1AGmwO3,yCsTjba,0o48UoR,P3YfQoD,YckIOms#0) [for hosting them](https://imgur.com/Vvy3Kru,fep1WsG,9I6NRUm,VlgBKQ9,jDRp47c,wWzX9uB).
+Special thanks to [Entypo](https://www.entypo.com/) for the icons and to [Imgur](https://imgur.com/tXSoThF,1AGmwO3,yCsTjba,0o48UoR,P3YfQoD,YckIOms#0) [for hosting them](https://imgur.com/Vvy3Kru,fep1WsG,9I6NRUm,VlgBKQ9,jDRp47c,wWzX9uB).
 
 
