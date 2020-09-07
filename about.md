@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
-headshot: "https://avatars0.githubusercontent.com/u/46810101?s=400&u=25332e9e143b3a76a51291e0262316162350809f&v=4"
 ---
+
+![_config.yml](https://avatars0.githubusercontent.com/u/46810101?s=400&u=25332e9e143b3a76a51291e0262316162350809f&v=4)
 
 I am a first year PhD student, interested in plant-parasitic interactions, and the evolutionary significance behind this relationship! I will be working in Dr. Jill Wegrzyn's [lab](https://plantcompgenomics.com/).
 
