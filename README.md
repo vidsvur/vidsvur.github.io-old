@@ -1,9 +1,4 @@
 ## About Me
----
-layout: default
-title: About
-permalink: /about/
----
 
 I am a first year PhD student, interested in plant-parasitic interactions, and the evolutionary significance behind this relationship! I will be working in Dr. Jill Wegrzyn's [lab](https://plantcompgenomics.com/).
 
