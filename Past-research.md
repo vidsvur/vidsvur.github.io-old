@@ -44,10 +44,10 @@ This was done in [Dr Babu S](https://www.researchgate.net/profile/Subramanian_Ba
 
 # Papers published 
 
-*Role of Nutrition in Cancer- Vuruputoor, VS., & Kalaichelvan, C. (2015). View of Role of nutrition in cancer. Research Journal of Pharmacology and Toxicology. 6. 58-63.
+*Role of Nutrition in Cancer- Vuruputoor, VS., & Kalaichelvan, C. (2015). View of Role of nutrition in cancer. Research Journal of Pharmacology and Toxicology. 6. 58-63.*
 
-*Statistical Analysis of State-wise Dengue Data in India- Karuppasamy, Ramanathan & Shreenidhi, R & Vidya, VS & Veerappapillai, Shanthi. (2015). Statistical Analysis of Statewise Dengue Data in India. Research Journal of Pharmaceutical, Biological and Chemical Sciences. 6. 1557-1567
+*Statistical Analysis of State-wise Dengue Data in India- Karuppasamy, Ramanathan & Shreenidhi, R & Vidya, VS & Veerappapillai, Shanthi. (2015). Statistical Analysis of Statewise Dengue Data in India. Research Journal of Pharmaceutical, Biological and Chemical Sciences. 6. 1557-1567*
 
-*Allergens and Molecular Diagnosis- Vuruputoor, VS., Adak S. and Kalaichelvan, C. (2017) Allergens and Molecular Diagnosis. Research Journal of Pharmaceutical, Biological and Chemical Sciences. 8. 37-48.
+*Allergens and Molecular Diagnosis- Vuruputoor, VS., Adak S. and Kalaichelvan, C. (2017) Allergens and Molecular Diagnosis. Research Journal of Pharmaceutical, Biological and Chemical Sciences. 8. 37-48.*
 
-*A Nutrition Dense Additive for Processed food items- Singh, G., Vuruputoor, V. S., & Kalaichelvan, C. (2018). A Nutrition Dense Additive for Processed food items. Research Journal of Pharmacy and Technology, 11(6), 2229-2234.
+*A Nutrition Dense Additive for Processed food items- Singh, G., Vuruputoor, V. S., & Kalaichelvan, C. (2018). A Nutrition Dense Additive for Processed food items. Research Journal of Pharmacy and Technology, 11(6), 2229-2234.*
