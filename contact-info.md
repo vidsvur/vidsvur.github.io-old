@@ -17,7 +17,7 @@ Postal address:
  [![alt text][1.2]][1]
  [![alt text][6.2]][6]
 
-   [1.1]: https://i.imgur.com/tXSoThF.png (twitter icon with padding)
-   [6.1]: https://i.imgur.com/0o48UoR.png (github icon with padding)
+   [1.2]: https://i.imgur.com/tXSoThF.png (twitter icon with padding)
+   [6.2]: https://i.imgur.com/0o48UoR.png (github icon with padding)
   
 [Back to Home](https://vidsvur.github.io/)
