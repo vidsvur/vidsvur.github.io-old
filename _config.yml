@@ -18,4 +18,5 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
-
+markdown: kramdown
+plugins: jekyll-feed
