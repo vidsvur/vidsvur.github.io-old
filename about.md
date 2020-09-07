@@ -13,3 +13,5 @@ I have done my Master's in Plant Biotechnology from [Wageningen University](http
 I did my Bachelor's in Biotechnology in [Vellore Institute of Technology, Vellore](https://vit.ac.in/). My bachelor thesis was supervised by [Dr. Babu S](https://www.researchgate.net/profile/Subramanian_Babu).
 
 Here's my [CV](docs/cv.pdf).
+
+I really like reading books, going on nature walks, singing and- blogging! Check out my (not-scientific-at-all [blog](https://vidsvur.wordpress.com/)!
