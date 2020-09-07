@@ -1,6 +1,6 @@
 ---
 title: Contact information
-layout: default
+layout: page
 ---
 
 Feel free to contact me at <vidya.vuruputoor@uconn.edu>
