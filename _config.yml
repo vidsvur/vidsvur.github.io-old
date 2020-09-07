@@ -2,21 +2,6 @@ theme: minima
 avatar: "https://avatars1.githubusercontent.com/u/46810101?s=60&v=4"
 title: Vidya Vuruputoor
 
-footer-links:
-  dribbble:
-  email: <vidya.vuruputoor@uconn.edu>
-  facebook:
-  flickr:
-  github: vidsvur
-  instagram:
-  linkedin: https://www.linkedin.com/in/vidya-vuruputoor/
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: vuruputoor
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-
 markdown: kramdown
 gems: 
   - jekyll-feed
