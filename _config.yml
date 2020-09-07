@@ -1,7 +1,5 @@
 theme: minima
-title: Vidya Vuruputoor
-description: PhD student at UConn
-headshot: /images/headshot.jpg
+headshot: "https://avatars1.githubusercontent.com/u/46810101?s=60&v=4"
 
 footer-links:
   dribbble:
