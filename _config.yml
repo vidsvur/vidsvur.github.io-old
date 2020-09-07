@@ -19,4 +19,5 @@ footer-links:
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 markdown: kramdown
-plugins: jekyll-feed
+plugins: 
+   - jekyll-feed
