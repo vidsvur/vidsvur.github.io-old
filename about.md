@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![_config.yml](/images/headshot.jpg)
+<img align="right" width="100" height="100" src=/images/headshot.jpg>
 
 I am a first year PhD student, interested in plant-parasitic interactions, and the evolutionary significance behind this relationship! I will be working in Dr. Jill Wegrzyn's [lab](https://plantcompgenomics.com/).
 
