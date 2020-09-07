@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-headshot: /images/headshot/jpg
+headshot: /images/headshot.jpg
 ---
 
 I am a first year PhD student, interested in plant-parasitic interactions, and the evolutionary significance behind this relationship! I will be working in Dr. Jill Wegrzyn's [lab](https://plantcompgenomics.com/).
