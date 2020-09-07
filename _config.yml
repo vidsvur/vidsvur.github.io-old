@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 title: Vidya Vuruputoor
 description: PhD student at UConn
-avatar: images/headshot.jpg
+avatar: /images/headshot.jpg
 
 footer-links:
   dribbble:
