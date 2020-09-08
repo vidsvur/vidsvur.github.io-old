@@ -2,4 +2,4 @@
 layout: default
 ---
 
-![image](/images/collage.jpg)
+![image](/images/cover.jpg)
