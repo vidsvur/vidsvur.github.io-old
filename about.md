@@ -6,7 +6,7 @@ permalink: /about/
 
 <img align="right" src= "/images/headshot.jpg">
 
-I am a first year PhD student at UConn- in the [EEB department](https://eeb.uconn.edu/), interested in plant-parasitic interactions, and the evolutionary significance behind this relationship! I will be working in Dr. Jill Wegrzyn's [lab](http://plantcompgenomics.com/).
+I am a first year PhD student in the UConn [EEB department](https://eeb.uconn.edu/), interested in plant-parasitic interactions, and the evolutionary significance behind this relationship! I will be working in Dr. Jill Wegrzyn's [lab](http://plantcompgenomics.com/).
 
 I have done my Master's in Plant Biotechnology from [Wageningen University](https://www.wur.nl/), and had the oppotunity to do my thesis at the [Lab of Nematology](https://www.wur.nl/en/Research-Results/Chair-groups/Plant-Sciences/Laboratory-of-Nematology.htm), and [Dr. Hans Helder](https://www.wur.nl/en/Persons/Hans-dr.ir.-J-Hans-Helder.htm) was my supervisor.
 
