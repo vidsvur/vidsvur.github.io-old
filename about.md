@@ -14,4 +14,4 @@ I did my Bachelor's in Biotechnology in [Vellore Institute of Technology, Vellor
 
 Here's my [CV](docs/cv.pdf).
 
-I really like reading books, going on nature walks, singing and- blogging! Check out my (not-scientific-at-all) [blog](https://vidsvur.wordpress.com/)!
+
