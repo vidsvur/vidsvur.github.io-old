@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Define title -->
+  <title>Vidya Vuruputoor - Projects</title>
+
+  <!-- Include favicon. Use, e.g., https://favicon.io/ -->
+  <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
+
+  <!-- Include style sheets -->
+  <link rel="stylesheet" href="main.css" />
+
+  <!-- Fonts from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet" />
+
+  <!-- Load FontAwesome (for icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" />
+
+  <!-- Load Academicons (for more icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css"
+    integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg=="
+    crossorigin="anonymous" />
+
+  <!-- Include JavaScript to handle tab clicks and load content -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const tabs = document.querySelectorAll(".tabs a");
+      const contentSection = document.getElementById("content");
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", function (event) {
+          event.preventDefault();
+          const pageUrl = this.getAttribute("href");
+
+          // Use fetch or another method to load content dynamically
+          fetch(pageUrl)
+            .then((response) => response.text())
+            .then((html) => {
+              contentSection.innerHTML = html;
+            })
+            .catch((error) => console.error("Error loading content:", error));
+        });
+      });
+    });
+
+    function toggleDarkMode() {
+      const body = document.body;
+      body.classList.toggle("dark-mode");
+    }
+  </script>
+
+</head>
+
+<body>
+  <!-- Content section with introduction and projects -->
+  <section id="content">
+    <!-- Avatar image -->
+    <img src="headshot.jpg" alt="Vidya Vuruputoor" class="avatar" />
+
+    <!-- Text -->
+    <h1>Projects</h1>
+    <p>
+      Welcome to my projects page! Here, you can explore some of the exciting projects I've been working on. Feel free
+      to click on the tabs to navigate through different sections.
+    </p>
+
+    <!-- Row for PhD projects -->
+    <h2>PhD Projects</h2>
+    <div class="project-row">
+      <!-- Replace image URLs and page links with your actual project details -->
+      <a href="phd_project1.html"><img src="phd_project1.jpg" alt="PhD Project 1" /></a>
+      <a href="phd_project2.html"><img src="phd_project2.jpg" alt="PhD Project 2" /></a>
+      <!-- Add more images and links as needed -->
+    </div>
+
+    <!-- Row for Masters projects -->
+    <h2>Masters Projects</h2>
+    <div class="project-row">
+      <!-- Replace image URLs and page links with your actual project details -->
+      <a href="masters_project1.html"><img src="masters_project1.jpg" alt="Masters Project 1" /></a>
+      <a href="masters_project2.html"><img src="masters_project2.jpg" alt="Masters Project 2" /></a>
+      <!-- Add more images and links as needed -->
+    </div>
+  </section>
+
+  <!-- Navigation section with text links -->
+  <nav>
+    <ul class="tabs">
+      <li class="tab-item"><a href="projects.html">Projects</a></li>
+      <li class="tab-item"><a href="project.html">Project</a></li>
+    </ul>
+  </nav>
+
+  <!-- Dark Mode Toggle Icon -->
+  <div id="darkModeToggle" onclick="toggleDarkMode()">
+    <i class="fas fa-adjust"></i>
+  </div>
+</body>
+
+</html>
