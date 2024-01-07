@@ -37,7 +37,7 @@
 
 <!-- Include JavaScript to handle tab clicks and load content -->
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
   const tabs = document.querySelectorAll(".tabs a");
   const contentSection = document.getElementById("content");
 
@@ -59,7 +59,7 @@
           tempContainer.querySelector("#content").style.cssText = originalStyles.cssText;
 
           // Replace the content with the modified HTML
-          contentSection.innerHTML = tempContainer.innerHTML;
+          contentSection.innerHTML = tempContainer.querySelector("#content").innerHTML;
         })
         .catch((error) => console.error("Error loading content:", error));
     });
@@ -70,6 +70,7 @@ function toggleDarkMode() {
   const body = document.body;
   body.classList.toggle("dark-mode");
 }
+
 </script>
 
 </head>
