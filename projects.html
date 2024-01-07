@@ -31,34 +31,6 @@
     integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg=="
     crossorigin="anonymous" />
 
-  <!-- Include JavaScript to handle tab clicks and load content -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const tabs = document.querySelectorAll(".tabs a");
-      const contentSection = document.getElementById("content");
-
-      tabs.forEach((tab) => {
-        tab.addEventListener("click", function (event) {
-          event.preventDefault();
-          const pageUrl = this.getAttribute("href");
-
-          // Use fetch or another method to load content dynamically
-          fetch(pageUrl)
-            .then((response) => response.text())
-            .then((html) => {
-              contentSection.innerHTML = html;
-            })
-            .catch((error) => console.error("Error loading content:", error));
-        });
-      });
-    });
-
-    function toggleDarkMode() {
-      const body = document.body;
-      body.classList.toggle("dark-mode");
-    }
-  </script>
-
 </head>
 
 <body>
