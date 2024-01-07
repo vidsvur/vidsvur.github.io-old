@@ -2,50 +2,43 @@
 
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Define title -->
-    <title>Vidya Vuruputoor</title>
+  <!-- Define title -->
+  <title>Vidya Vuruputoor</title>
 
-    <!-- Include favicon. Use, e.g., https://favicon.io/ -->
-    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
+  <!-- Include favicon. Use, e.g., https://favicon.io/ -->
+  <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
 
-    <!-- Include style sheets -->
-    <link rel="stylesheet" href="main.css" />
+  <!-- Include style sheets -->
+  <link rel="stylesheet" href="main.css" />
 
-    <!-- Fonts from Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet" />
+  <!-- Fonts from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet" />
 
-    <!-- Load FontAwesome (for icons) -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-    />
+  <!-- Load FontAwesome (for icons) -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" />
 
-    <!-- Load Academicons (for more icons) -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css"
-      integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg=="
-      crossorigin="anonymous"
-    />
+  <!-- Load Academicons (for more icons) -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css"
+    integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg=="
+    crossorigin="anonymous" />
 
-    <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-  crossorigin="anonymous"
-/>
-  </head>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" />
 
-    <!-- Include JavaScript to handle tab clicks and load content -->
+  <!-- Include JavaScript to handle tab clicks and load content -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const tabs = document.querySelectorAll(".tabs a");
@@ -66,75 +59,69 @@
         });
       });
     });
+
+    function toggleDarkMode() {
+      const body = document.body;
+      body.classList.toggle("dark-mode");
+    }
   </script>
-
-  <script>
-  function toggleDarkMode() {
-    const body = document.body;
-    body.classList.toggle("dark-mode");
-  }
-</script>
-
-<div id="darkModeToggle" onclick="toggleDarkMode()">
-  <i class="fas fa-adjust"></i>
-</div>
-  
 </head>
 
-  <body>
-    <section id="content">
-      <!-- Avatar image -->
-      <img src="headshot.jpg" alt="Vidya Vuruputoor" class="avatar" />
+<body>
+  <section id="content">
+    <!-- Avatar image -->
+    <img src="headshot.jpg" alt="Vidya Vuruputoor" class="avatar" />
 
-      <!-- Text -->
-      <h1>Hi, I'm Vidya!</h1>
-      <p>
-        I am a Ph.D. candidate at the Plant Computational Genomics Lab, at the Department of Ecology of Evolutionary Biology, UConn.
-      </p>
-      <p>
-        Most of my current research is driven by my passion for studying the co-evolution of pests and their host plants!
-      </p>
-      <p>
-        Please feel free to get in touch!
-      </p>
+    <!-- Text -->
+    <h1>Hi, I'm Vidya!</h1>
+    <p>
+      I am a Ph.D. candidate at the Plant Computational Genomics Lab, at the Department of Ecology of Evolutionary Biology, UConn.
+    </p>
+    <p>
+      Most of my current research is driven by my passion for studying the co-evolution of pests and their host plants!
+    </p>
+    <p>
+      Please feel free to get in touch!
+    </p>
 
-      <!-- Icons -->
-      <ul class="icons">
-        <li>
-          <a href="https://plantcompgenomics.com/" title="Institutional website"><i class="fas fa-university"></i></a>
-        </li>
-        <li>
-          <a href="mailto:vidyavuru@gmail.com" title="E-Mail"><i class="fas fa-envelope"></i></a>
-        </li>
-        <li>
-          <a href="https://gitlab.com/PlantGenomicsLab/physcomitrellopsis-africana-genome" title="GitHub"><i class="fab fa-github"></i></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/vidya-vuruputoor/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        </li>
-        <li>
-          <a href="https://orcid.org/my-orcid?orcid=0000-0002-5836-7054"><i class="ai ai-orcid"></i></a>
-        </li>
-        <li>
-          <a href="https://scholar.google.com/citations?user=DNDYfEoAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-        </li>
+    <!-- Icons -->
+    <ul class="icons">
       <li>
-    <a style="display: inline-block; border: 0; text-decoration: none;" href="http://vsco.co/vidsvur?utm_source=user_grid&utm_medium=user_website&utm_campaign=link_to_grid">
-      <img style="width: 32px; height: 32px; margin: 0px;" src="http://assets.vsco.co/assets/images/assets/Logo_black_32.png" alt="VSCO Logo" />
-    </a>
-    </li>
-      </ul>
-    </section>
-
-
-        <!-- Add the navigation section with text links -->
-    <nav>
-      <ul class="tabs">
-        <li class="active"><a href="projects.html">Projects</a></li>
-        <li class="active"><a href="project.html">Projects</a></li>
-      </ul>
-    </nav>
+        <a href="https://plantcompgenomics.com/" title="Institutional website"><i class="fas fa-university"></i></a>
+      </li>
+      <li>
+        <a href="mailto:vidyavuru@gmail.com" title="E-Mail"><i class="fas fa-envelope"></i></a>
+      </li>
+      <li>
+        <a href="https://gitlab.com/PlantGenomicsLab/physcomitrellopsis-africana-genome" title="GitHub"><i class="fab fa-github"></i></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/vidya-vuruputoor/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </li>
+      <li>
+        <a href="https://orcid.org/my-orcid?orcid=0000-0002-5836-7054"><i class="ai ai-orcid"></i></a>
+      </li>
+      <li>
+        <a href="https://scholar.google.com/citations?user=DNDYfEoAAAAJ&hl=en" title="Google Scholar"><i
+            class="ai ai-google-scholar"></i></a>
+      </li>
+      <li>
+        <a style="display: inline-block; border: 0; text-decoration: none;"
+          href="http://vsco.co/vidsvur?utm_source=user_grid&utm_medium=user_website&utm_campaign=link_to_grid">
+          <img style="width: 32px; height: 32px; margin: 0px;"
+          src="http://assets.vsco.co/assets/images/assets/Logo_black_32.png" alt="VSCO Logo" />
+        </a>
+      </li>
+    </ul>
   </section>
-  </body>
- 
+
+  <!-- Add the navigation section with text links -->
+  <nav>
+    <ul class="tabs">
+      <li class="active"><a href="projects.html">Projects</a></li>
+      <li class="active"><a href="project.html">Projects</a></li>
+    </ul>
+  </nav>
+</body>
+
 </html>
