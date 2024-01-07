@@ -22,19 +22,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet" />
 
   <!-- Load FontAwesome (for icons) -->
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" />
 
   <!-- Load Academicons (for more icons) -->
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css"
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css"
     integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg=="
     crossorigin="anonymous" />
 
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" />
 
@@ -65,6 +62,7 @@
       body.classList.toggle("dark-mode");
     }
   </script>
+
 </head>
 
 <body>
@@ -75,10 +73,12 @@
     <!-- Text -->
     <h1>Hi, I'm Vidya!</h1>
     <p>
-      I am a Ph.D. candidate at the Plant Computational Genomics Lab, at the Department of Ecology of Evolutionary Biology, UConn.
+      I am a Ph.D. candidate at the Plant Computational Genomics Lab, at the Department of Ecology of Evolutionary
+      Biology, UConn.
     </p>
     <p>
-      Most of my current research is driven by my passion for studying the co-evolution of pests and their host plants!
+      Most of my current research is driven by my passion for studying the co-evolution of pests and their host
+      plants!
     </p>
     <p>
       Please feel free to get in touch!
@@ -93,10 +93,12 @@
         <a href="mailto:vidyavuru@gmail.com" title="E-Mail"><i class="fas fa-envelope"></i></a>
       </li>
       <li>
-        <a href="https://gitlab.com/PlantGenomicsLab/physcomitrellopsis-africana-genome" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://gitlab.com/PlantGenomicsLab/physcomitrellopsis-africana-genome" title="GitHub"><i
+            class="fab fa-github"></i></a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/vidya-vuruputoor/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/vidya-vuruputoor/" title="LinkedIn"><i
+            class="fab fa-linkedin"></i></a>
       </li>
       <li>
         <a href="https://orcid.org/my-orcid?orcid=0000-0002-5836-7054"><i class="ai ai-orcid"></i></a>
@@ -109,19 +111,24 @@
         <a style="display: inline-block; border: 0; text-decoration: none;"
           href="http://vsco.co/vidsvur?utm_source=user_grid&utm_medium=user_website&utm_campaign=link_to_grid">
           <img style="width: 32px; height: 32px; margin: 0px;"
-          src="http://assets.vsco.co/assets/images/assets/Logo_black_32.png" alt="VSCO Logo" />
+            src="http://assets.vsco.co/assets/images/assets/Logo_black_32.png" alt="VSCO Logo" />
         </a>
       </li>
     </ul>
   </section>
 
-  <!-- Add the navigation section with text links -->
+  <!-- Navigation section with text links -->
   <nav>
     <ul class="tabs">
-      <li class="active"><a href="projects.html">Projects</a></li>
-      <li class="active"><a href="project.html">Projects</a></li>
+      <li class="tab-item"><a href="projects.html">Projects</a></li>
+      <li class="tab-item"><a href="project_updates.html">Updates</a></li>
     </ul>
   </nav>
+
+  <!-- Dark Mode Toggle Icon -->
+  <div id="darkModeToggle" onclick="toggleDarkMode()">
+    <i class="fas fa-adjust"></i>
+  </div>
 </body>
 
 </html>
