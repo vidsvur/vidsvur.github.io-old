@@ -38,6 +38,30 @@
     />
   </head>
 
+    <!-- Include JavaScript to handle tab clicks and load content -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const tabs = document.querySelectorAll(".tabs a");
+      const contentSection = document.getElementById("content");
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", function (event) {
+          event.preventDefault();
+          const pageUrl = this.getAttribute("href");
+
+          // Use fetch or another method to load content dynamically
+          fetch(pageUrl)
+            .then((response) => response.text())
+            .then((html) => {
+              contentSection.innerHTML = html;
+            })
+            .catch((error) => console.error("Error loading content:", error));
+        });
+      });
+    });
+  </script>
+</head>
+
   <body>
     <section id="content">
       <!-- Avatar image -->
@@ -82,6 +106,16 @@
     </li>
       </ul>
     </section>
+
+        <!-- Add the navigation section with text links -->
+    <nav>
+      <ul class="tabs">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="research.html">Research</a></li>
+        <!-- Add more tabs for other subpages -->
+      </ul>
+    </nav>
+  </section>
   </body>
  
 </html>
