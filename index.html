@@ -35,43 +35,42 @@
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" />
 
-  <!-- Include JavaScript to handle tab clicks and load content -->
 <!-- Include JavaScript to handle tab clicks and load content -->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const tabs = document.querySelectorAll(".tabs a");
-    const contentSection = document.getElementById("content");
+  const tabs = document.querySelectorAll(".tabs a");
+  const contentSection = document.getElementById("content");
 
-    tabs.forEach((tab) => {
-      tab.addEventListener("click", function (event) {
-        event.preventDefault();
-        const pageUrl = this.getAttribute("href");
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", function (event) {
+      event.preventDefault();
+      const pageUrl = this.getAttribute("href");
 
-        // Use fetch or another method to load content dynamically
-        fetch(pageUrl)
-          .then((response) => response.text())
-          .then((html) => {
-            // Create a temporary container to parse the HTML and get its styles
-            const tempContainer = document.createElement("div");
-            tempContainer.innerHTML = html;
+      // Use fetch or another method to load content dynamically
+      fetch(pageUrl)
+        .then((response) => response.text())
+        .then((html) => {
+          // Create a temporary container to parse the HTML
+          const tempContainer = document.createElement("div");
+          tempContainer.innerHTML = html;
 
-            // Set the class attribute of the content container to match the original styling
-            tempContainer.querySelector("#content").setAttribute("class", contentSection.getAttribute("class"));
+          // Clone the styles of the original content
+          const originalStyles = window.getComputedStyle(contentSection);
+          tempContainer.querySelector("#content").style.cssText = originalStyles.cssText;
 
-            // Replace the content with the modified HTML
-            contentSection.innerHTML = tempContainer.innerHTML;
-          })
-          .catch((error) => console.error("Error loading content:", error));
-      });
+          // Replace the content with the modified HTML
+          contentSection.innerHTML = tempContainer.innerHTML;
+        })
+        .catch((error) => console.error("Error loading content:", error));
     });
   });
+});
 
-  function toggleDarkMode() {
-    const body = document.body;
-    body.classList.toggle("dark-mode");
-  }
+function toggleDarkMode() {
+  const body = document.body;
+  body.classList.toggle("dark-mode");
+}
 </script>
-
 
 </head>
 
