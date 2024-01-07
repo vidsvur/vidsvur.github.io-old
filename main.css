@@ -87,4 +87,49 @@ a:hover {
   width: 150px;
 }
 
-/* Add more styles as needed */
+/* Updated styles for project content */
+
+.project-content {
+  text-align: left;
+  max-width: 100%; /* Adjusted to match the device width */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-content h1,
+.project-content p,
+.project-content h2 {
+  margin-bottom: 20px;
+}
+
+.project-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.project-row a {
+  flex: 0 0 48%;
+  margin-bottom: 10px;
+}
+
+.project-row img {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Adjusted font size for project page */
+.project-content h1 {
+  font-size: 2em;
+}
+
+.project-content h2 {
+  font-size: 1.5em;
+}
+
