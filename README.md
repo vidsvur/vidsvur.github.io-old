@@ -1,49 +1,24 @@
-## About Me
+# Academic template
 
-I am a first year PhD student, interested in plant-parasitic interactions, and the evolutionary significance behind this relationship! I will be working in Dr. Jill Wegrzyn's [lab](https://plantcompgenomics.com/).
+Simple academic template that is easy to deploy on Github page, and relatively
+easy to customize using css. Here is the [live](https://simongravelle.github.io/) version.
 
-I have done my Master's in Plant Biotechnology from [Wageningen University](https://www.wur.nl/), and had the oppotunity to do my thesis at the [Lab of Nematology](https://www.wur.nl/en/Research-Results/Chair-groups/Plant-Sciences/Laboratory-of-Nematology.htm), and [Dr. Hans Helder](https://www.wur.nl/en/Persons/Hans-dr.ir.-J-Hans-Helder.htm) was my supervisor.
+Enter your publications as a folder in [content/publication/](content/publication/).
 
-I did my Bachelor's in Biotechnology in [Vellore Institute of Technology, Vellore](https://vit.ac.in/). My bachelor thesis was supervised by [Dr. Babu S](https://www.researchgate.net/profile/Subramanian_Babu).
+[![image](https://user-images.githubusercontent.com/43388542/216845033-cc7b0a28-60ff-4e86-a5ce-2c93930e08e2.png)](https://simongravelle.github.io/)
 
-Here's my [CV](PDFs/cv.pdf).
+[![image](https://user-images.githubusercontent.com/43388542/216845176-a6effb49-db58-42b2-8b36-f65d5b959e39.png)](https://simongravelle.github.io/)
 
-### Contact me
+It comes with a good looking dark mode:
 
-[vidya.vuruputoor@uconn.edu](mailto:vidya.vuruputoor@uconn.edu)
+[![image](https://user-images.githubusercontent.com/43388542/216845058-77fe9c11-5086-494f-b83d-83d26c252a5b.png)](https://simongravelle.github.io/)
 
-### <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
+Feel free to use the template, it is originally
+from [wowchemy](https://wowchemy.com/), with some custom css
+adapted from [nickballousite](https://github.com/nballou) webpage.
 
-###  <!-- display the social media buttons in your README -->
+To build locally, type:
 
- 
- [![alt text][1.2]][1]
- [![alt text][6.2]][6]
-
- [Contact Info](contact-info.html)
-
-###  <!-- links to social media icons -->
-### <!-- no need to change these -->
-
-### <!-- icons with padding -->
-
-   [1.1]: https://i.imgur.com/tXSoThF.png (twitter icon with padding)
-   [6.1]: https://i.imgur.com/0o48UoR.png (github icon with padding)
-
-### <!-- icons without padding -->
-
-   [1.2]: https://i.imgur.com/wWzX9uB.png (twitter icon without padding)
-   [6.2]: https://i.imgur.com/9I6NRUm.png (github icon without padding)
-
-
-   [1]: https://www.twitter.com/vuruputoor
-   [6]: https://www.github.com/vidsvur
-
-
-### Credit
-Special thanks to [Entypo](https://www.entypo.com/) for the icons and to [Imgur](https://imgur.com/tXSoThF,1AGmwO3,yCsTjba,0o48UoR,P3YfQoD,YckIOms#0) [for hosting them](https://imgur.com/Vvy3Kru,fep1WsG,9I6NRUm,VlgBKQ9,jDRp47c,wWzX9uB).
-
-[Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
-[SVG icons](https://github.com/neilorangepeel/Free-Social-Icons)
-[Jekyll-Now](https://github.com/barryclark/jekyll-now)
-
+```
+hugo server
+```
